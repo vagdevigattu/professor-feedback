@@ -1,0 +1,82 @@
+
+.container,.container-fluid{
+  background-color:#a8dadc;
+    height: 100vh;
+    color: #197278;
+}
+
+#col1{
+  background-color:#a8dadc;
+  height: 100vh;
+  color: #197278;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#heading{
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+#caption{
+  padding: 5%;
+  text-align: center;
+}
+
+#col2{
+  background-color:#a8dadc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#button{
+  background-color: #197278;
+  color:white;
+  width: 80px;
+}
+
+/*homepage*/
+
+.home{
+  background-color: #83c5be;
+  color: #197278;
+}
+
+#home-heading{
+  text-align: center;
+}
+
+#home-div{
+  position: fixed;
+  height: 100vh;
+  z-index: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#xyz{
+  background-color: yellow;
+  height: 100vh;
+  z-index: 800;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.disable{
+  pointer-events: none;
+}
+#myAnchor,#link{
+  text-decoration: none;
+  color: white;
+}
